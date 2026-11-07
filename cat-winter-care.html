@@ -9,16 +9,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="logo" href="index.html">أنيس للحيوانات</a>
-  <nav aria-label="القائمة الرئيسية"><a href="index.html">الرئيسية</a><a href="cats.html">القطط</a><a href="dogs.html">الكلاب</a><a href="rabbits.html">الأرانب</a><a href="birds.html">الطيور</a><a href="about.html">من نحن</a></nav>
-</header>
-<main class="container">
-  <article class="article-content">
+<header class="top"><div class="container bar">
+<a class='logo' href='/ar/'><svg viewBox="0 0 64 64" width="34" height="34" aria-hidden="true"><g fill="#2A9D8F"><ellipse cx="20" cy="18" rx="7" ry="9"/><ellipse cx="44" cy="18" rx="7" ry="9"/><ellipse cx="9" cy="32" rx="6" ry="8"/><ellipse cx="55" cy="32" rx="6" ry="8"/><path d="M32 30c10 0 19 9 19 17 0 6-5 9-10 9-4 0-6-2-9-2s-5 2-9 2c-5 0-10-3-10-9 0-8 9-17 19-17z"/></g></svg><span>أنيس</span></a>
+<nav id="nav"><a class href='/ar/'>الرئيسية</a><a class='on' href='/cats'>القطط</a><a class href='/dogs'>الكلاب</a><a class href='/birds'>الطيور</a><a class href='/rabbits'>الأرانب</a><a class href='/about'>من نحن</a><a class href='/contact'>اتصل بنا</a></nav>
+<div class="langswitch" aria-label="Language"><a href="/cats" class="lang on" hreflang="ar" title="العربية"><span class="flag">🇲🇦</span><span class="lbl">AR</span></a><a href="/fr/chats" class="lang" hreflang="fr" title="Rubrique Chats en français ; cet article est en arabe"><span class="flag">🇫🇷</span><span class="lbl">FR</span></a><a href="/en/cats" class="lang" hreflang="en" title="Cats section in English; this article is in Arabic"><span class="flag">🇬🇧</span><span class="lbl">EN</span></a></div><button id="burger" aria-label="القائمة">☰</button></div></header>
+<main class="container post">
+  <article class="post-body">
     <p><a href="cats.html">القطط</a> / العناية الموسمية</p>
     <h1>كيف تحمي قطتك من برد الشتاء؟ 7 نصائح مهمة لكل مربي</h1>
     <p>تبحث قطتك عن مكان دافئ أو تقضي وقتاً أطول في النوم مع انخفاض الحرارة؟ القطط أيضاً تتأثر بالبرد، وتحتاج القطط الصغيرة والكبيرة في السن والمريضة أو قليلة الشعر إلى عناية خاصة. إليك خطوات عملية تساعدك على إبقائها آمنة ومريحة.</p>
-    <img src="cats.jpg" alt="قطة تستريح في مكان دافئ داخل المنزل" style="max-width:100%;height:auto">
+    <img src="cats.jpg" alt="قطة منزلية بالأبيض والأسود" style="max-width:100%;height:auto">
     <h2>1. جهّز لها مكاناً دافئاً وجافاً</h2>
     <p>ضع سرير قطتك في مكان داخلي بعيد عن تيارات الهواء والنوافذ والأبواب، وأضف بطانية جافة. تأكد أن مكان النوم آمن وسهل الوصول، خصوصاً للقطط المسنة أو التي تعاني ألماً في المفاصل.</p>
     <h2>2. قلّل الخروج في البرد والمطر</h2>
@@ -46,6 +46,12 @@
     <p><small>هذا المقال للتوعية العامة ولا يعوّض استشارة الطبيب البيطري.</small></p>
   </article>
 </main>
-<footer><p>© أنيس للحيوانات</p><a href="privacy.html">سياسة الخصوصية</a> · <a href="disclaimer.html">إخلاء المسؤولية</a></footer>
+<footer><div class="container cols">
+<div><div class="flogo">أنيس</div><p>دليلك العربي الموثوق لتربية الحيوانات الأليفة: محتوى مبسط، عملي، ومحدَّث — لأنهم ليسوا مجرد حيوانات.. إنهم عائلة.</p></div>
+<div><h4>الأقسام</h4><a href='/cats'>القطط</a><a href='/dogs'>الكلاب</a><a href='/birds'>الطيور</a><a href='/rabbits'>الأرانب</a></div>
+<div><h4>الموقع</h4><a href='/about'>من نحن</a><a href='/contact'>اتصل بنا</a><a href='/privacy'>سياسة الخصوصية</a><a href='/disclaimer'>إخلاء المسؤولية</a><a href="/credits">مصادر الصور</a></div>
+<div><h4>تنويه</h4><p class="small">محتوى أنيس تثقيفي عام ولا يغني عن استشارة الطبيب البيطري المختص.</p></div>
+</div><div class="copy container">© <span id="y"></span> أنيس — جميع الحقوق محفوظة.</div></footer>
+<script src="/assets/main.js"></script>
 </body>
 </html>

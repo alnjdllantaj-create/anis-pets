@@ -197,3 +197,10 @@ footer a:hover{color:#fff}
 [dir=ltr] .h2::after{right:auto; left:0}
 [dir=ltr] .crumbs{text-align:left}
 @media (max-width:640px){.langswitch .lbl{display:none}.langswitch a{padding:4px 8px}}
+
+/* Review repair: hide empty ad placeholders, and keep language labels readable
+   even on devices that do not render country-flag emoji. */
+.ad-slot[hidden]{display:none!important}
+.langswitch .flag{display:none}
+.langswitch .lbl{display:inline!important}
+.langswitch a{justify-content:center}
