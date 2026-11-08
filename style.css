@@ -204,3 +204,41 @@ footer a:hover{color:#fff}
 .langswitch .flag{display:none}
 .langswitch .lbl{display:inline!important}
 .langswitch a{justify-content:center}
+
+/* Anis review: local OFL font, consistent colours and legible interactive text. */
+@font-face{font-family:'IBM Plex Sans Arabic';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/fonts/IBMPlexSansArabic-Regular.ttf') format('truetype')}
+@font-face{font-family:'IBM Plex Sans Arabic';font-style:normal;font-weight:500;font-display:swap;src:url('/assets/fonts/IBMPlexSansArabic-Medium.ttf') format('truetype')}
+@font-face{font-family:'IBM Plex Sans Arabic';font-style:normal;font-weight:700;font-display:swap;src:url('/assets/fonts/IBMPlexSansArabic-Bold.ttf') format('truetype')}
+:root{--teal:#176d62;--teal-d:#155f56;--terra:#b9472c;--muted:#52615d}
+body{font-family:'IBM Plex Sans Arabic','Segoe UI',Tahoma,Arial,sans-serif}
+.home-v3{--cream:#faf6f1;--ink:#26322f;--muted:#52615d;--teal:#176d62;--teal-d:#155f56;--terra:#b9472c;--amber:#b9472c;--card:#fff;background:#faf6f1}
+.home-v3 .top{background:rgba(250,246,241,.96);border-bottom-color:#eadfd3}
+.home-v3 #nav a.on,.home-v3 #nav a.on:hover{background:#176d62;color:#fff}
+.home-v3 #nav a:hover{background:#f0e7db}
+.home-v3 .hero-overlay{background:linear-gradient(100deg,rgba(13,77,69,.91) 0%,rgba(15,78,70,.76) 45%,rgba(18,45,40,.38) 100%)}
+.home-v3 .hero .pill,.home-v3 .trustbar span{background:rgba(10,53,48,.76);border-color:rgba(255,255,255,.6)}
+.home-v3 .btn{background:#176d62;color:#fff;box-shadow:0 8px 20px -6px rgba(13,77,69,.45)}
+.home-v3 .btn:hover{background:#115b53}
+.home-v3 .btn.ghost{background:rgba(10,53,48,.78);color:#fff;border-color:#fff}
+.home-v3 .btn.ghost:hover{background:#155f56}
+.home-v3 .h2::after{background:#b9472c}
+.home-v3 .cat-card,.home-v3 .card{border-color:#eadfd3}
+.home-v3 .cat-card h3{color:#155f56}
+.tag,.home-v3 .tag{background:#fdeee9;color:#9c3a22}
+.home-v3 section.why{background:#eef6f4;border-color:#d3e7e1}
+.home-v3 .wcard .ico{background:#e8f4f2}
+.home-v3 .vet-banner{background:#fff7ec;border-color:#f3ddb8;color:#704b08}
+.home-v3 footer{background:#1e3230;color:#dfe9e6}
+.home-v3 footer a{color:#bcd6d1}
+.langbanner{background:linear-gradient(90deg,#176d62,#115b53)}
+.langbanner[hidden]{display:none!important}
+.lb-in{padding-inline-end:48px}
+.lb-btns a.on{background:#fff;color:#155f56}
+.lb-btns a.on:hover{background:#e8f4f2;color:#155f56}
+.cform .small{color:#52615d}
+.post-body a,.prose a,.acover figcaption a,.share a{color:#155f56;text-decoration:underline;text-underline-offset:.15em}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #b9472c;outline-offset:3px}
+[dir=ltr] .post-body h2{border-right:0;padding-right:0;border-left:5px solid var(--terra);padding-left:12px}
+/* Keep the hero message and reassurance chips in one centred vertical flow. */
+.home-v3 .hero{display:block}
+.lb-close{inset-inline-end:8px;min-width:40px;min-height:40px}

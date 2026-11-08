@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anis-pets.netlify.app/sitemap.xml
